@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/api-extractor/v7/api-extractor.schema.json",
+  "mainEntryPointFilePath": "dist/types/index.d.ts",
+  "bundledPackages": [],
+  "apiReport": {
+    "enabled": false,
+    "reportFolder": "dist/lib/"
+  },
+  "docModel": {
+    "enabled": true
+  },
+  "dtsRollup": {
+    "enabled": true,
+    "untrimmedFilePath": "dist/index.d.ts"
+  },
+  "messages": {
+    "extractorMessageReporting": {
+      "ae-missing-release-tag": {
+        "logLevel": "none"
+      }
+    }
+  }
+}
