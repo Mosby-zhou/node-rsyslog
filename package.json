@@ -10,7 +10,7 @@
     "dist/index.d.ts"
   ],
   "author": "Mosby-zhou <zhoucong0725@foxmail.com>",
-  "homepage": "https://Mosby-zhou.github.io/node-rsyslog",
+  "homepage": "https://Mosby-zhou.github.io/node-rsyslog/index.html",
   "repository": {
     "type": "git",
     "url": "https://github.com/Mosby-zhou/node-rsyslog"
