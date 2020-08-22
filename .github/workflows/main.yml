@@ -33,7 +33,7 @@ jobs:
           node-version: 12
       - name: Publish npm
         run: |
-          npm config set //registry.npmjs.org/:_authToken=${{ NODE_AUTH_TOKEN }}
+          npm config set //registry.npmjs.org/:_authToken=${{ secrets.npm_token }}
           npm publish -registry https://registry.npmjs.org --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
@@ -44,7 +44,7 @@ jobs:
           node-version: 12
       - name: Publish gpr
         run: |
-          npm config set //npm.pkg.github.com/:_authToken=${{ NODE_AUTH_TOKEN }}
+          npm config set //npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}
           npm publish -registry https://npm.pkg.github.com/@mosby-zhou --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
