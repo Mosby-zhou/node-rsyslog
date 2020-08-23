@@ -2732,16 +2732,10 @@ img {
 			<a href="classes/rsyslog.html" class="tsd-kind-icon">RSyslog</a>
 		</li>
 		<li class=" tsd-kind-type-alias">
-			<a href="globals.html#accesslog" class="tsd-kind-icon">Access<wbr>Log</a>
-		</li>
-		<li class=" tsd-kind-type-alias">
 			<a href="globals.html#rsyslogoptions" class="tsd-kind-icon">RSyslog<wbr>Options</a>
 		</li>
 		<li class=" tsd-kind-type-alias">
 			<a href="globals.html#rsyslogsendoptions" class="tsd-kind-icon">RSyslog<wbr>Send<wbr>Options</a>
-		</li>
-		<li class=" tsd-kind-type-alias">
-			<a href="globals.html#requestlog" class="tsd-kind-icon">Request<wbr>Log</a>
 		</li>
 		<li class=" tsd-kind-variable">
 			<a href="globals.html#bom" class="tsd-kind-icon">BOM</a>
@@ -2785,10 +2779,8 @@ img {
 					<section class="tsd-index-section ">
 						<h3>Type aliases</h3>
 						<ul class="tsd-index-list">
-							<li class="tsd-kind-type-alias"><a href="globals.html#accesslog" class="tsd-kind-icon">Access<wbr>Log</a></li>
 							<li class="tsd-kind-type-alias"><a href="globals.html#rsyslogoptions" class="tsd-kind-icon">RSyslog<wbr>Options</a></li>
 							<li class="tsd-kind-type-alias"><a href="globals.html#rsyslogsendoptions" class="tsd-kind-icon">RSyslog<wbr>Send<wbr>Options</a></li>
-							<li class="tsd-kind-type-alias"><a href="globals.html#requestlog" class="tsd-kind-icon">Request<wbr>Log</a></li>
 						</ul>
 					</section>
 					<section class="tsd-index-section ">
@@ -2811,112 +2803,12 @@ img {
 		<section class="tsd-panel-group tsd-member-group ">
 			<h2>Type aliases</h2>
 			<section class="tsd-panel tsd-member tsd-kind-type-alias">
-				<a name="accesslog" class="tsd-anchor"></a>
-				<h3>Access<wbr>Log</h3>
-				<div class="tsd-signature tsd-kind-icon">Access<wbr>Log<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{ </span>bytes_in<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>bytes_out<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>error<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>host<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>http_referer<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>id<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>latency<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>latency_human<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>method<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">"GET"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"POST"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"DELETE"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"PUT"</span><span class="tsd-signature-symbol">; </span>remote_ip<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>remote_project<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>remote_user<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>response_body<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">{}</span><span class="tsd-signature-symbol">; </span>snapshot<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">{}</span><span class="tsd-signature-symbol">; </span>status<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>time<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>uri<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>user_agent<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> }</span></div>
-				<aside class="tsd-sources">
-					<ul>
-						<li>Defined in <a href="https://github.com/Mosby-zhou/node-rsyslog/blob/7e42026/src/types.ts#L1">src/types.ts:1</a></li>
-					</ul>
-				</aside>
-				<div class="tsd-type-declaration">
-					<h4>Type declaration</h4>
-					<ul class="tsd-parameters">
-						<li class="tsd-parameter">
-							<h5>bytes_<wbr>in<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
-						</li>
-						<li class="tsd-parameter">
-							<h5>bytes_<wbr>out<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
-						</li>
-						<li class="tsd-parameter">
-							<h5><span class="tsd-flag ts-flagOptional">Optional</span> error<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
-						</li>
-						<li class="tsd-parameter">
-							<h5>host<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></h5>
-						</li>
-						<li class="tsd-parameter">
-							<h5><span class="tsd-flag ts-flagOptional">Optional</span> http_<wbr>referer<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
-						</li>
-						<li class="tsd-parameter">
-							<h5><span class="tsd-flag ts-flagOptional">Optional</span> id<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>trace id</p>
-								</div>
-							</div>
-						</li>
-						<li class="tsd-parameter">
-							<h5>latency<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>ns, i.e. 2ms: <code>2000000</code>.</p>
-								</div>
-							</div>
-						</li>
-						<li class="tsd-parameter">
-							<h5>latency_<wbr>human<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></h5>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>ms, i.e. <code>2ms</code>.</p>
-								</div>
-							</div>
-						</li>
-						<li class="tsd-parameter">
-							<h5>method<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">"GET"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"POST"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"DELETE"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"PUT"</span></h5>
-						</li>
-						<li class="tsd-parameter">
-							<h5>remote_<wbr>ip<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></h5>
-						</li>
-						<li class="tsd-parameter">
-							<h5><span class="tsd-flag ts-flagOptional">Optional</span> remote_<wbr>project<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
-						</li>
-						<li class="tsd-parameter">
-							<h5><span class="tsd-flag ts-flagOptional">Optional</span> remote_<wbr>user<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
-						</li>
-						<li class="tsd-parameter">
-							<h5><span class="tsd-flag ts-flagOptional">Optional</span> response_<wbr>body<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">{}</span></h5>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>If response body is not json, use { &quot;<strong>text</strong>&quot;: text }. value max length is 1000.</p>
-								</div>
-							</div>
-						</li>
-						<li class="tsd-parameter">
-							<h5><span class="tsd-flag ts-flagOptional">Optional</span> snapshot<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">{}</span></h5>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>If request body is not json, use { &quot;<strong>text</strong>&quot;: text }. value max length is 1000.</p>
-								</div>
-							</div>
-						</li>
-						<li class="tsd-parameter">
-							<h5>status<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
-						</li>
-						<li class="tsd-parameter">
-							<h5>time<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></h5>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>ISO 8601
-									YYYY-MM-DDThh:mm:ss.sTZD, i.e. <code>1997-07-16T19:20:30.45+01:00</code>, <code>1997-07-16T19:20:30.45Z</code></p>
-								</div>
-							</div>
-						</li>
-						<li class="tsd-parameter">
-							<h5>uri<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></h5>
-						</li>
-						<li class="tsd-parameter">
-							<h5>user_<wbr>agent<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></h5>
-						</li>
-					</ul>
-				</div>
-			</section>
-			<section class="tsd-panel tsd-member tsd-kind-type-alias">
 				<a name="rsyslogoptions" class="tsd-anchor"></a>
 				<h3>RSyslog<wbr>Options</h3>
 				<div class="tsd-signature tsd-kind-icon">RSyslog<wbr>Options<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{ </span>appname<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>bom<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span><span class="tsd-signature-symbol">; </span>facility<span class="tsd-signature-symbol">: </span><a href="enums/facility.html" class="tsd-signature-type">FACILITY</a><span class="tsd-signature-symbol">; </span>host<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>hostname<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>method<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">"TCP"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"UDP"</span><span class="tsd-signature-symbol">; </span>port<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>procid<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> }</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/Mosby-zhou/node-rsyslog/blob/7e42026/src/index.ts#L55">src/index.ts:55</a></li>
+						<li>Defined in <a href="https://github.com/Mosby-zhou/node-rsyslog/blob/b53063e/src/index.ts#L55">src/index.ts:55</a></li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3000,7 +2892,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">RSyslog<wbr>Send<wbr>Options<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{ </span>msgid<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>timestamp<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> }</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/Mosby-zhou/node-rsyslog/blob/7e42026/src/index.ts#L108">src/index.ts:108</a></li>
+						<li>Defined in <a href="https://github.com/Mosby-zhou/node-rsyslog/blob/b53063e/src/index.ts#L108">src/index.ts:108</a></li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3030,85 +2922,6 @@ img {
 					</ul>
 				</div>
 			</section>
-			<section class="tsd-panel tsd-member tsd-kind-type-alias">
-				<a name="requestlog" class="tsd-anchor"></a>
-				<h3>Request<wbr>Log</h3>
-				<div class="tsd-signature tsd-kind-icon">Request<wbr>Log<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{ </span>bytes_in<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>bytes_out<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>id<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>latency<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>latency_human<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>method<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">"GET"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"POST"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"DELETE"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"PUT"</span><span class="tsd-signature-symbol">; </span>response_body<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">{}</span><span class="tsd-signature-symbol">; </span>snapshot<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">{}</span><span class="tsd-signature-symbol">; </span>status<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>time<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>uri<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> }</span></div>
-				<aside class="tsd-sources">
-					<ul>
-						<li>Defined in <a href="https://github.com/Mosby-zhou/node-rsyslog/blob/7e42026/src/types.ts#L45">src/types.ts:45</a></li>
-					</ul>
-				</aside>
-				<div class="tsd-type-declaration">
-					<h4>Type declaration</h4>
-					<ul class="tsd-parameters">
-						<li class="tsd-parameter">
-							<h5>bytes_<wbr>in<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
-						</li>
-						<li class="tsd-parameter">
-							<h5>bytes_<wbr>out<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
-						</li>
-						<li class="tsd-parameter">
-							<h5><span class="tsd-flag ts-flagOptional">Optional</span> id<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>trace id</p>
-								</div>
-							</div>
-						</li>
-						<li class="tsd-parameter">
-							<h5>latency<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>ns, i.e. 2ms: <code>2000000</code>.</p>
-								</div>
-							</div>
-						</li>
-						<li class="tsd-parameter">
-							<h5>latency_<wbr>human<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></h5>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>ms, i.e. <code>2ms</code>.</p>
-								</div>
-							</div>
-						</li>
-						<li class="tsd-parameter">
-							<h5>method<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">"GET"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"POST"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"DELETE"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"PUT"</span></h5>
-						</li>
-						<li class="tsd-parameter">
-							<h5><span class="tsd-flag ts-flagOptional">Optional</span> response_<wbr>body<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">{}</span></h5>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>If response body is not json, use { &quot;<strong>text</strong>&quot;: text }. value max length is 1000.</p>
-								</div>
-							</div>
-						</li>
-						<li class="tsd-parameter">
-							<h5><span class="tsd-flag ts-flagOptional">Optional</span> snapshot<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">{}</span></h5>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>If request body is not json, use { &quot;<strong>text</strong>&quot;: text }. value max length is 1000.</p>
-								</div>
-							</div>
-						</li>
-						<li class="tsd-parameter">
-							<h5>status<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
-						</li>
-						<li class="tsd-parameter">
-							<h5>time<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></h5>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>ISO 8601
-									YYYY-MM-DDThh:mm:ss.sTZD, i.e. <code>1997-07-16T19:20:30.45+01:00</code>, <code>1997-07-16T19:20:30.45Z</code></p>
-								</div>
-							</div>
-						</li>
-						<li class="tsd-parameter">
-							<h5>uri<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></h5>
-						</li>
-					</ul>
-				</div>
-			</section>
 		</section>
 		<section class="tsd-panel-group tsd-member-group ">
 			<h2>Variables</h2>
@@ -3118,7 +2931,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">BOM<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Buffer</span><span class="tsd-signature-symbol"> = Buffer.from(&#x27;EFBBBF&#x27;, &#x27;hex&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/Mosby-zhou/node-rsyslog/blob/7e42026/src/index.ts#L48">src/index.ts:48</a></li>
+						<li>Defined in <a href="https://github.com/Mosby-zhou/node-rsyslog/blob/b53063e/src/index.ts#L48">src/index.ts:48</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3128,7 +2941,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">DELIMITER<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Buffer</span><span class="tsd-signature-symbol"> = Buffer.from(&#x27; &#x27;, &#x27;ascii&#x27;)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/Mosby-zhou/node-rsyslog/blob/7e42026/src/index.ts#L50">src/index.ts:50</a></li>
+						<li>Defined in <a href="https://github.com/Mosby-zhou/node-rsyslog/blob/b53063e/src/index.ts#L50">src/index.ts:50</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3138,7 +2951,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">NILVALUE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"-"</span><span class="tsd-signature-symbol"> = &quot;-&quot;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/Mosby-zhou/node-rsyslog/blob/7e42026/src/index.ts#L46">src/index.ts:46</a></li>
+						<li>Defined in <a href="https://github.com/Mosby-zhou/node-rsyslog/blob/b53063e/src/index.ts#L46">src/index.ts:46</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -3151,7 +2964,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">defaultRSyslog<wbr>Options<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/Mosby-zhou/node-rsyslog/blob/7e42026/src/index.ts#L122">src/index.ts:122</a></li>
+						<li>Defined in <a href="https://github.com/Mosby-zhou/node-rsyslog/blob/b53063e/src/index.ts#L122">src/index.ts:122</a></li>
 					</ul>
 				</aside>
 				<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
@@ -3160,7 +2973,7 @@ img {
 					<div class="tsd-signature tsd-kind-icon">appname<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> = NILVALUE</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/Mosby-zhou/node-rsyslog/blob/7e42026/src/index.ts#L126">src/index.ts:126</a></li>
+							<li>Defined in <a href="https://github.com/Mosby-zhou/node-rsyslog/blob/b53063e/src/index.ts#L126">src/index.ts:126</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -3170,7 +2983,7 @@ img {
 					<div class="tsd-signature tsd-kind-icon">bom<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> = false</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/Mosby-zhou/node-rsyslog/blob/7e42026/src/index.ts#L130">src/index.ts:130</a></li>
+							<li>Defined in <a href="https://github.com/Mosby-zhou/node-rsyslog/blob/b53063e/src/index.ts#L130">src/index.ts:130</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -3180,7 +2993,7 @@ img {
 					<div class="tsd-signature tsd-kind-icon">facility<span class="tsd-signature-symbol">:</span> <a href="enums/facility.html#local0" class="tsd-signature-type">local0</a><span class="tsd-signature-symbol"> = FACILITY.local0</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/Mosby-zhou/node-rsyslog/blob/7e42026/src/index.ts#L127">src/index.ts:127</a></li>
+							<li>Defined in <a href="https://github.com/Mosby-zhou/node-rsyslog/blob/b53063e/src/index.ts#L127">src/index.ts:127</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -3190,7 +3003,7 @@ img {
 					<div class="tsd-signature tsd-kind-icon">host<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> = &quot;127.0.0.1&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/Mosby-zhou/node-rsyslog/blob/7e42026/src/index.ts#L123">src/index.ts:123</a></li>
+							<li>Defined in <a href="https://github.com/Mosby-zhou/node-rsyslog/blob/b53063e/src/index.ts#L123">src/index.ts:123</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -3200,7 +3013,7 @@ img {
 					<div class="tsd-signature tsd-kind-icon">hostname<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> = hostname()</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/Mosby-zhou/node-rsyslog/blob/7e42026/src/index.ts#L128">src/index.ts:128</a></li>
+							<li>Defined in <a href="https://github.com/Mosby-zhou/node-rsyslog/blob/b53063e/src/index.ts#L128">src/index.ts:128</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -3210,7 +3023,7 @@ img {
 					<div class="tsd-signature tsd-kind-icon">method<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"UDP"</span><span class="tsd-signature-symbol"> = &quot;UDP&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/Mosby-zhou/node-rsyslog/blob/7e42026/src/index.ts#L125">src/index.ts:125</a></li>
+							<li>Defined in <a href="https://github.com/Mosby-zhou/node-rsyslog/blob/b53063e/src/index.ts#L125">src/index.ts:125</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -3220,7 +3033,7 @@ img {
 					<div class="tsd-signature tsd-kind-icon">port<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> = 514</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/Mosby-zhou/node-rsyslog/blob/7e42026/src/index.ts#L124">src/index.ts:124</a></li>
+							<li>Defined in <a href="https://github.com/Mosby-zhou/node-rsyslog/blob/b53063e/src/index.ts#L124">src/index.ts:124</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -3230,7 +3043,7 @@ img {
 					<div class="tsd-signature tsd-kind-icon">procid<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> = process.pid</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/Mosby-zhou/node-rsyslog/blob/7e42026/src/index.ts#L129">src/index.ts:129</a></li>
+							<li>Defined in <a href="https://github.com/Mosby-zhou/node-rsyslog/blob/b53063e/src/index.ts#L129">src/index.ts:129</a></li>
 						</ul>
 					</aside>
 				</section>
